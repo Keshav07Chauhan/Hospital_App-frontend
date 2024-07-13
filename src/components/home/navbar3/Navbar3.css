@@ -1,7 +1,11 @@
 .navbar3 {
   height: 60px;
   margin-bottom: 10px;
-  background-color: rgb(53, 53, 212);
+  /* background-color: rgb(53, 53, 212); */
+  background: linear-gradient(90deg, rgba(57,147,126,1) 0%, rgba(104,229,199,1) 43%, rgba(202,255,241,1) 59%);
+    position: sticky;
+    top: 0;
+    z-index: 5;
 }
 
 .navbar31 {

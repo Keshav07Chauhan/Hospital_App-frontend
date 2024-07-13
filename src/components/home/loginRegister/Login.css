@@ -1,7 +1,7 @@
 .login {
     display: flex;
     flex-wrap: wrap; /* Allow wrapping */
-    background-color: #c0ddef;
+    background-color: rgba(202, 255, 241, 1);
 }
 
 .loginleft, .loginright {
@@ -24,7 +24,7 @@
     font-family: sans-serif;
     line-height: 1.5;
     min-height: 100vh;
-    background-color: #c0ddef;
+    background-color: rgba(202, 255, 241, 1);
     flex-direction: column;
     padding: 20px;
     margin: 0;
