@@ -4,7 +4,7 @@ import './WritePrescription.css';
 const WritePrescription = ({ onSave, onClose }) => {
   const [prescriptionData, setPrescriptionData] = useState({
     name: "",
-    qunatity: "",
+    quantity: "",
     morning: "",
     afternoon: "",
     evening: ""
@@ -29,7 +29,7 @@ const WritePrescription = ({ onSave, onClose }) => {
           <input className='prescription-input name-input' type="text" name="name" value={prescriptionData.name} onChange={onChange} placeholder="Enter medicine name" required />
           
           <label className='prescription-label quantity-label'>Quantity</label>
-          <input className='prescription-input quantity-input' type="number" name="qunatity" value={prescriptionData.qunatity} onChange={onChange} placeholder="Enter quantity" required />
+          <input className='prescription-input quantity-input' type="number" name="quantity" value={prescriptionData.quantity} onChange={onChange} placeholder="Enter quantity" required />
           
           <label className='prescription-label morning-label'>Morning</label>
           <input className='prescription-input morning-input' type="time" name="morning" value={prescriptionData.morning} onChange={onChange} />

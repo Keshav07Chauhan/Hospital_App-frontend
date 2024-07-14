@@ -48,7 +48,7 @@ const Prescription = () => {
 
         const data = appointment.prescription.map((prescription) => [
             prescription.name,
-            prescription.qunatity,
+            prescription.quantity,
             prescription.morning,
             prescription.afternoon,
             prescription.evening

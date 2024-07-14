@@ -46,7 +46,7 @@ const PrescriptionManager = () => {
           {prescriptions.map((prescription, index) => (
             <tr key={index}>
               <td>{prescription.name}</td>
-              <td>{prescription.qunatity}</td>
+              <td>{prescription.quantity}</td>
               <td>{prescription.morning}</td>
               <td>{prescription.afternoon}</td>
               <td>{prescription.evening}</td>
