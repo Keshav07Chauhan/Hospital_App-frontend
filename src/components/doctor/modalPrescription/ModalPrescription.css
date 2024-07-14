@@ -25,7 +25,7 @@
   max-width: 600px;
   max-height: 80%;
   overflow-y: auto;
-  background-color: #c0ddef;
+  background-color: rgba(202,255,241,1);
 }
 
 .close {

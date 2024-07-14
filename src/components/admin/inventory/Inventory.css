@@ -2,7 +2,7 @@
   font-family: Arial, sans-serif;
   margin: 20px;
   padding: 20px;
-  background-color: #85c8ef;
+  background-color: rgba(104,229,199,1);
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -30,7 +30,7 @@
   font-size: 14px;
   font-weight: bold;
   color: #fff;
-  background-color: #4580a3;
+  background-color: rgba(57,147,126,1);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -56,12 +56,12 @@
 
 .inventory .action-buttons button:hover,
 .inventory .action-buttons .custom-file-upload:hover {
-  background-color: #35617a;
+  background-color: rgb(48, 122, 105);
 }
 
 .inventory .action-buttons button:active,
 .inventory .action-buttons .custom-file-upload:active {
-  background-color: #254659;
+  background-color: rgb(48, 122, 105);
 }
 
 .inventory table {
@@ -77,12 +77,12 @@
 }
 
 .inventory th {
-  background-color: #4580a3;
+  background-color: rgba(57,147,126,1);
   color: #fff;
 }
 
 .inventory td {
-  background-color: #c0ddef;
+  background-color: rgba(202,255,241,1);
 }
 
 .inventory td input {
@@ -98,7 +98,7 @@
   padding: 5px 10px;
   font-size: 14px;
   color: #fff;
-  background-color: #85c8ef;
+  background-color: rgba(57,147,126,1);
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -106,11 +106,11 @@
 }
 
 .inventory td button:hover {
-  background-color: #69aed5;
+  background-color: rgb(48, 122, 105);
 }
 
 .inventory td button:active {
-  background-color: #4580a3;
+  background-color: rgb(48, 122, 105);
 }
 
 /* Responsive Styles */

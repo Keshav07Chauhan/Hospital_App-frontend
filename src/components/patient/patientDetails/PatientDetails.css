@@ -11,7 +11,7 @@
   margin: auto;
   margin-bottom: 80px;
   margin-top: 20px;
-  background-color: #85c8ef;
+  background-color: rgba(104,229,199,1);
 }
 
 .patientimage {
@@ -23,7 +23,7 @@
   height: 150px;
   border-radius: 50%;
   object-fit: cover;
-  border: 3px solid #3498db;
+  border: 3px solid rgba(57,147,126,1);
 }
 
 .patientdata {
@@ -57,7 +57,7 @@
 .patientprofileupdate {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #3498db;
+  background-color: rgba(57,147,126,1);
   color: white;
   border: none;
   border-radius: 5px;
@@ -67,7 +67,7 @@
 }
 
 .patientprofileupdate:hover {
-  background-color: #2980b9;
+  background-color: rgb(48, 122, 105);
 }
 
 .patientprofileupdatelink {

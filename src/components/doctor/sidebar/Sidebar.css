@@ -5,7 +5,7 @@
     flex-direction: column;
     position: fixed;
     padding: 20px 0;
-    background-color: #85c8ef;
+    background-color: rgba(104,229,199,1);
 }
 
 .doctoricon {
@@ -15,7 +15,7 @@
 }
 
 .doctoricon:hover {
-    background-color: #499bf3;
+    background-color: rgba(57,147,126,1);
 }
 
 .doctoricon a {
@@ -33,7 +33,7 @@
 }
 
 .doctoricon a.active {
-    background-color: #499bf3;
+    background-color: rgba(57,147,126,1);
     color: #fff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }

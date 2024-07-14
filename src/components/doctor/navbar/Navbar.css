@@ -1,6 +1,6 @@
 .doctornavbar {
   height: 70px;
-  background-color: #499bf3;
+  background: linear-gradient(90deg, rgba(57,147,126,1) 0%, rgba(104,229,199,1) 43%, rgba(202,255,241,1) 59%);
 }
 
 .doctornavbar31 {

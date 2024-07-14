@@ -5,7 +5,7 @@
     border: 1px solid #ccc;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    background-color: #85c8ef;
+    background-color: rgba(104,229,199,1);
 }
 
 .news h3 {
@@ -36,7 +36,7 @@
 
 .news input:focus,
 .news textarea:focus {
-    border-color: #007bff;
+    border-color: rgba(57,147,126,1);
     outline: none;
 }
 
@@ -49,7 +49,7 @@
 }
 
 .news button {
-    background-color: #007bff;
+    background-color: rgba(57,147,126,1);
     color: #fff;
     padding: 12px 24px;
     border: none;
@@ -60,7 +60,7 @@
 }
 
 .news button:hover {
-    background-color: #0056b3;
+    background-color: rgb(48, 122, 105);
 }
 
 @media (max-width: 768px) {

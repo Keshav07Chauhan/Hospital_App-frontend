@@ -2,11 +2,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #c0ddef;
+  background-color: rgba(202,255,241,1);
 }
 
 .prescription-right {
-  background-color: #85c8ef;
+  background-color: rgba(104,229,199,1);
   padding: 20px;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -47,7 +47,7 @@ h3 {
 }
 
 .prescription-button {
-  background-color: #499bf3;
+  background-color: rgba(57,147,126,1);
   color: white;
   padding: 10px 20px;
   border: none;
@@ -57,5 +57,5 @@ h3 {
 }
 
 .prescription-button:hover {
-  background-color: #357ae8;
+  background-color: rgb(48, 122, 105);
 }
